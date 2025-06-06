@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.24)  3 JUN 2025 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.24)  6 JUN 2025 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -342,7 +342,7 @@ File: OT1lato-TLF.fd 2019/06/24 Font definitions for OT1/lato-TLF.
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 58.
 
-No file resume.aux.
+(./resume.aux (./custom-commands.aux))
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -363,6 +363,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
+
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count281
@@ -378,6 +379,7 @@ LaTeX Font Info:    ... okay on input line 58.
 \everyMPtoPDFconversion=\toks28
 )
 Package hyperref Info: Link coloring OFF on input line 58.
+ (./resume.out) (./resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
@@ -427,31 +429,14 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 6.
-) (./src/education.tex
+) (./src/cover_template.tex
 
 LaTeX Font Warning: Font shape `OT1/lato-TLF/m/sc' undefined
-(Font)              using `OT1/lato-TLF/m/n' instead on input line 2.
+(Font)              using `OT1/lato-TLF/m/n' instead on input line 1.
 
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 7.
-LaTeX Font Info:    Font shape `OT1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 7.
-LaTeX Font Info:    Font shape `OT1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 7.
-LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 9.
-LaTeX Font Info:    Font shape `OT1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 9.
-) (./src/experience.tex
-LaTeX Font Info:    Font shape `OT1/lato-TLF/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 2.
-) (./src/projectsD.tex) (./src/skills.tex)
+(Font)              scaled to size 12.0pt on input line 1.
+)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -466,8 +451,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 al/texlive/2024/texmf-dist/fonts/enc/dvips/lato/a_y72t7m.enc}{/usr/local/texliv
 e/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive
 /2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/
-2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive
-/2024/texmf-dist/fonts/enc/dvips/lato/a_vc7epu.enc}] (./resume.aux
+2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./resume.aux
 (./custom-commands.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -483,29 +467,30 @@ Package rerunfilecheck Warning: File `resume.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  8178769A591DAE54593BE5DC5893BD68;390.
+(rerunfilecheck)             Before: 0A1E2ED448D8A9A17323E1CD9139C003;123
+(rerunfilecheck)             After:  9534070C232AA0A3F935CB7C3E3F8D46;35.
  ) 
 Here is how much of TeX's memory you used:
- 14359 strings out of 474116
- 249689 string characters out of 5743681
- 1958187 words of memory out of 5000000
- 36516 multiletter control sequences out of 15000+600000
- 599564 words of font info for 70 fonts, out of 8000000 for 9000
+ 14312 strings out of 474116
+ 248849 string characters out of 5743681
+ 1941187 words of memory out of 5000000
+ 36486 multiletter control sequences out of 15000+600000
+ 579760 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,335b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
-me5Brands-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fo
-ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts
-/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
-pe1/typoland/lato/Lato-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
-e1/typoland/lato/Lato-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb>
-Output written on resume.pdf (1 page, 107125 bytes).
+ 75i,11n,79p,836b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome
+5Brands-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/font
+awesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
+1/typoland/lato/Lato-Regular.pfb>
+Output written on resume.pdf (1 page, 57756 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
